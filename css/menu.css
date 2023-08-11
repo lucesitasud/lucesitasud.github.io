@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3, p, li{
+    font-family: Dancing Script;
+    color:#663801;
+    text-align: center;
+}
+h2{
+    color: #f29b30;
+    font-size: 55px;
+    font-family: Dancing Script;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+h3{
+    font-size: 32px;
+    padding: 15px;
+}
+h4{
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 55px;
+    color: #f29b30;
+    padding: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+}
+p, li{
+    font-size: 25px;
+}
+/*estilos header*/
+header{
+    background-image: url(../imagenes/fondob.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+#inicio{
+    font-family: Dancing Script;
+    text-align: center;
+    color: #f29b30;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+    padding-top: 80px;
+}
+#inicio h1{
+    font-size: 150px;
+}
+#inicio p{
+    font-size: 80px;
+}
+
+.regresar{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.regresar a{
+    color: #241401;
+    font-family: Dancing Script;
+}
+
+.regresar a:hover{
+    background-color: #f2c438;
+}
+
+/*estilos del main*/
+
+img{
+    display: flex;
+    width: 480px;
+    height: 500px;
+    border-radius: 30px 5px;
+    border: 3px solid rgb(248, 171, 3);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*estilos del footer*/
+footer{
+    background-color: #f29b30;
+}
+.regresar{
+    text-align: center;
+    color:#663801;
+}
+
+

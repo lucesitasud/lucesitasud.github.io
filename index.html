@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <title>Lucesita Gourmet: Comida Venezolana</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./imagenes/logod.jpg" alt="logo" class="logo-header">
+        </div>
+        <nav>
+            <ul>
+                <a href="#inicio">
+                    <li><strong>Inicio</strong></li>
+                </a>
+              
+                <a href="#restaurante">
+                    <li><strong>Sobre Nosotros</strong></li>
+                </a>
+
+                <a href="menu.html">
+                    <li><strong>Menú</strong></li>
+                </a>
+
+                <a href="#galeria">
+                    <li><strong>Galería</strong></li>
+                </a>
+              
+                <a href="#localizacion">
+                    <li><strong>Localización</strong></li>
+                </a>
+                
+                <a href="#reservas">
+                    <li><strong>Reservas</strong></li>
+                </a>
+                
+                <a href="#contacto">
+                    <li><strong>Contacto</strong></li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class=fondo-inicio>
+            <section id="inicio" class="inicio">
+                <h1>Lucesita Gourmet <br></h1>
+                <p><em>Dale luz a tu paladar.</em></p>
+            </section>
+            <section id="ver-menu>">
+                <a href="./menu.html" class="enlace-menu">
+                    <div class="button-menu">
+                        <p>Ver Menú</p>
+                    </div>
+                </a>
+            </section>
+        </div>
+        <div>
+            <section id="restaurante" class="restaurante">
+                <h2>Sobre nosotros</h2>
+                <p>Bienvenido al encantador restaurante de comida típica venezolana en Brasil. Sumérgete en una
+                experiencia culinaria que fusiona la pasión de Venezuela con la hospitalidad brasileña. Nuestro
+                acogedor espacio decorado con colores vibrantes y elementos folclóricos te transportará
+                directamente a las calles de Caracas. <br>Deléitate con platos emblemáticos como arepas rellenas con
+                sabores auténticos, cachapas doradas y suculentos patacones. <strong>Cada bocado es un viaje de sabores</strong>,
+                donde el aroma de los platos te harán sentir como si estuvieras en tierra venenezolana. Nuestro
+                compromiso es brindarte una experiencia única que celebra la riqueza culinaria de nuestro país,
+                todo en un ambiente que fusiona lo mejor de nuestra cultura. <br> ¡Esperamos que disfrutes cada
+                momento en nuestro restaurante y que le des <em>luz a tu paladar</em></p>
+            </section>
+        </div>
+       
+        <div>
+            <section id="galeria" class="galeria">
+                <h2>Galeria</h2>
+                    <div class="img-container">
+                        <img src="./imagenes/arepa-pelua.jpg" alt="arepa pelua">
+                        <img src="./imagenes/arepa_domino.jpg" alt="arepa domino">
+                        <img src="./imagenes/empanadas.jpg" alt="empanadas">
+                        <img src="./imagenes/chicha.jpg" alt="chicha">
+                        <img src="./imagenes/cachapas.jpg" alt="cachapas">
+                        <img src="./imagenes/pabellon.jpg" alt="pabellon criollo">
+                    </div>
+            </section>
+            <section id="ver-menu>">
+                <a href="./menu.html">
+                    <div class="button">
+                        <p>ver Menú</p>
+                    </div>
+                </a>
+        </div>
+        <div class="localizacion">
+            <section id="localizacion" class="localizacion">
+                <h2>Dirección del restaurante</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.2200077320394!2d-49.30825328805986!3d-25.49770813548223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce33597dbfddf%3A0xcdf4d6d61f884fb0!2sR.%20Gen.%20Potiguara%2C%202%20-%20Novo%20Mundo%2C%20Curitiba%20-%20PR%2C%2081050-500!5e0!3m2!1ses-419!2sbr!4v1691751544944!5m2!1ses-419!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Dirección: R. Gen. Potiguara, 2-1694 - Novo Mundo, Curitiba - PR</p>
+     
+        <div class="reservas-container">
+            <section id="reservas" class="reservas">
+                <h2>Reserva del Restaurante</h2>
+                <p>Formulario para reservas</p>
+                    <form action="procesar_reserva.php" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="fecha">Fecha de Reserva:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                        </div>
+                        <div class="form-group">
+                            <button type=¨submit¨>Reservar</button>
+                        </div>
+                    </form>   
+                <p>Contactos para reservas:<br>
+                    (41)991756681<br>
+                    (41)981546789</p>   
+            </section>
+        </div>
+
+        <div>
+            <section id="contacto" class="contacto">
+                <h2>Contacto</h2>
+                        <div class="contact-info">
+                            <p>Teléfono:(41)981546789 </p>
+                            <p>Correo electrónico: info@lucesitagourmet.com</p>
+                        </div>
+            </section>
+            <section id="formulario-contacto">
+                <h2>Contactame</h2>
+                    <form action=""method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nome" name="nome" autocomplete="name" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+    
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+    
+                        <button type=¨submit¨>Enviar Mensaje</button>
+                    </form>
+                </section>
+                <section class="creditos" id="creditos">
+                    <h3>Creditos</h3>
+                    <ul>
+                        <li>https://www.recetasderechupete.com/arepas-como-hacer-arepas-consejos-y-su-origen/26665/
+                        </li>
+                        <li>https://www.laylita.com/recetas/arepa-reina-pepiada/
+                        </li>
+                        <li>https://elmundoenrecetas.com/receta/receta_de_arepa_de_reina_pepiada
+                        </li>
+                        <li>https://www.buzzfeed.com/gretaalvarez/patacon-zuliano?</li>
+                        <li>https://www.bizcochosysancochos.com/p/recetas.html?m=1
+                        </li>
+                        <li>https://www.bizcochosysancochos.com/2018/01/empanadas-venezolanas-harina-maiz.html
+                        </li>
+                        <li>https://www.venezuelatuya.com/cocina/dulce_lechosa.htm
+                        </li>
+                        <li>https://comidasvenezolanas.org/receta-torta-de-pan/</li>
+                    </ul>
+                </section>
+        </div>
+    </main>     
+    <footer class="footer">
+        <p>&copy; 2023 Oriana Luces. Todos los derechos reservados.</p>
+    </footer>
+</html>
+    
